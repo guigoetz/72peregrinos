@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+header {
+    background-color: #c8102e;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;  
+    width: 20vw; /* Ajuste o tamanho conforme necessário (20% da largura da tela) */
+    height: 20vw; /* Mantém a proporção circular */
+    max-width: 150px; /* Tamanho máximo para telas grandes */
+    max-height: 150px; /* Tamanho máximo para telas grandes */
+    border-radius: 50%; /* Faz a imagem ficar circular */
+    overflow: hidden; /* Garante que a imagem não ultrapasse os limites */
+}
+
+h1{
+    font-family: "Oswald", serif;
+    font-weight: 700; /* Use um valor numérico válido */
+    color: #f4f4f4;
+}
+h3{ 
+    padding-top: 0;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+nav ul {
+    list-style-type: none;
+    padding-top: 4vw;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 50px;
+}
+
+section {
+    background-color: #f4f4f4; 
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #c8102e;  
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #000000;  
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
